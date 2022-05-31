@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kundoluk-api"
+version = "0.1.0"
+description = ""
+authors = ["Eldos <eldos.baktybekov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.75.1"
+uvicorn = "^0.17.6"
+httpx = "^0.22.0"
+environs = "^9.5.0"
+aioredis = "^2.0.1"
+lxml = "^4.8.0"
+bs4 = "^0.0.1"
+PyJWT = "^2.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
